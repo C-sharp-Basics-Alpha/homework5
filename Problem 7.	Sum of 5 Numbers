@@ -1,0 +1,15 @@
+using System;
+					
+public class SumOf5Nums
+{
+	public static void Main()
+	{
+		double a = double.Parse(Console.ReadLine());
+		double b = double.Parse(Console.ReadLine());
+		double c = double.Parse(Console.ReadLine());
+		double d = double.Parse(Console.ReadLine());
+		double f = double.Parse(Console.ReadLine());
+		double sum= a+b+c+d+f;
+		Console.WriteLine("{0} {1} {2} {3} {4}  {5}",a,b,c,d,f, sum=a+b+c+d+f);
+	}
+}
