@@ -1,0 +1,29 @@
+using System;
+
+public class NumbersInIntervalDividableByGivenNumber
+{
+    public static void Main()
+    {
+        int numA = int.Parse(Console.ReadLine());
+		int numB = int.Parse(Console.ReadLine());
+		int p = 0;
+		
+		if (numA<=0 && numB<=0)
+			
+		{
+			Console.WriteLine("IncorrectNumber");
+		}
+		
+			for (int i = numA;i <= numB;i++)
+			{
+				
+				
+				if (i % 5 ==0 )
+				{
+				 	p++;
+					
+				}
+			}
+		Console.WriteLine(p);
+    }
+}
